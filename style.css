@@ -3,9 +3,19 @@
     padding: 0;
 }
 
-#container {
+body {
+    background-color: rgb(128, 128, 128);
+}
+
+.container {
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
 }
